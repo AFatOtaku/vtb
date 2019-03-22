@@ -15,5 +15,10 @@ userInfo 查询/插入 UP主信息
 
 videoInfo 查询/插入 视频信息
 
-下一步补全：
-根据VIDEO表的两个FLAG  分别对每个视频爬取详细信息与TAG信息
+userVtbVideoCount 获得UP视频中与VTB相关视频的数量
+
+videoDetailInfo 通过视频ID获得视频详细信息
+
+videoTagCut 用来将爬取出的TAG从一个字符串分割成单项并存入表中
+
+videoTagInfo 爬取TAG信息 给videoTagCut 用

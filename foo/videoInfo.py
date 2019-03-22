@@ -97,7 +97,7 @@ def insertvideoinfo(item, page, size, db, cursor):
     # sql = r"delete from video_info where mid = %d" % int(aid)
     # 插入现有数据
     sql2 = r"insert ignore into video_info" \
-           "(aid,comment,typeid,view,subtitle,description,copyright,title,reply," \
+           "(aid,video_comment,typeid,video_view,subtitle,description,copyright,title,reply," \
            "author,mid,is_union_video,created,video_length,video_review,is_pay,favorites,hide_click,duration)values(" \
            "%d,%d,%d,%d,'%s','%s','%s','%s',%d,'%s',%d,%d,'%s','%s',%d,%d,%d,%d,%s)" % (
                int(aid),
